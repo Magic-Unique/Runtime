@@ -1,6 +1,8 @@
 # Runtime
 Magic_Unique 冷秋
 
+[下一篇: Runtime的地位（一）](https://github.com/Magic-Unique/Runtime/blob/master/B.1.Runtime的地位（一）.md)
+
 ## 前言
 
 好了, 这是在自 iOS 平台开放并基于 Objective-C 语言开发后的一个编程语言上的高级技术. 学习runtime的目的并不是为了开发, 而是让你更好的理解 Objective-C 的工作原理, 从而熟练的运用 Objective-C 来开发 iOS 和 Mac OS X 上的应用.
@@ -27,3 +29,6 @@ Magic_Unique 冷秋
 但是这个步骤花了我 1 个月才搞清楚什么是 runtime.
 
 话不多说, 开始 runtime 的折磨之旅.
+
+
+[下一篇: Runtime的地位（一）](https://github.com/Magic-Unique/Runtime/blob/master/B.1.Runtime的地位（一）.md)

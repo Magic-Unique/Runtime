@@ -1,5 +1,9 @@
 # Runtime 开发的后果
 
+[上一篇: Runtime的表现](https://github.com/Magic-Unique/Runtime/blob/master/C.Runtime的表现.md)
+
+[下一篇: Runtime的实践（一）](https://github.com/Magic-Unique/Runtime/blob/master/E.1.Runtime的实践（一）.md)
+
 ## Objective-C允许我们基于C语言的面向对象开发
 
 在前面的篇幅介绍了类在C语言中的表现，我们写的类最终都会变成一个结构体，我们写的对象最终也是一个结构体。并且 Runtime 也允许我们去`读取`和`修改`这些结构体。
@@ -36,3 +40,7 @@ OC是一个成熟的面向对象语言，它拥有一个面向对象语言应有
 如果你技术成熟，改造可以让 OC 更能配合你开发。
 
 如果你技术不成熟，改造的后果无法预测。
+
+[上一篇: Runtime的表现](https://github.com/Magic-Unique/Runtime/blob/master/C.Runtime的表现.md)
+
+[下一篇: Runtime的实践（一）](https://github.com/Magic-Unique/Runtime/blob/master/E.1.Runtime的实践（一）.md)

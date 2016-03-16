@@ -2,6 +2,10 @@
 
 # 此文由 @bo 撰写[冷秋稍作修改]
 
+[上一篇: Runtime的实践（四）](https://github.com/Magic-Unique/Runtime/blob/master/E.4.Runtime的实践（四）.md)
+
+[下一篇: Runtime的实践（六）](https://github.com/Magic-Unique/Runtime/blob/master/E.6.Runtime的实践（六）.md)
+
 ## 方法交换
 我们回看`Runtime 的地位(二)`可以发现，Object-C的对象 是由一个结构体指针所构成的。结构体指针如下
 
@@ -119,3 +123,8 @@ method_exchangeImplementations(method1, method2);
 # 这个是runtime的黑科技，慎用。例如千万别在一个控制器里写8个通知和写goto。
 
 重要的事说三遍
+
+
+[上一篇: Runtime的实践（四）](https://github.com/Magic-Unique/Runtime/blob/master/E.4.Runtime的实践（四）.md)
+
+[下一篇: Runtime的实践（六）](https://github.com/Magic-Unique/Runtime/blob/master/E.6.Runtime的实践（六）.md)

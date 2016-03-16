@@ -1,4 +1,9 @@
 # Runtime的地位（一）
+
+[上一篇: 前言](https://github.com/Magic-Unique/Runtime/blob/master/A.前言.md)
+
+[下一篇: Runtime的地位（二）](https://github.com/Magic-Unique/Runtime/blob/master/B.2.Runtime的地位（二）.md)
+
 ## Runtime简介
 学习任何一个东西自然要知道它是个啥，Runtime 是一个很奇葩的东西。至少笔者多年的开发经验，才第一次看见这样的东西。
 
@@ -65,3 +70,6 @@ run time，运行时。
 
 并没有逗你，只是这个结构体的确可以保存这么多东西。
 
+[上一篇: 前言](https://github.com/Magic-Unique/Runtime/blob/master/A.前言.md)
+
+[下一篇: Runtime的地位（二）](https://github.com/Magic-Unique/Runtime/blob/master/B.2.Runtime的地位（二）.md)

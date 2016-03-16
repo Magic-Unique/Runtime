@@ -350,3 +350,6 @@ runtime覆盖方式有很多种, 在上一个篇幅中, 我们就有一个覆盖
 **慎用**
 
 > 以上代码是实现在调用方法前添加自己的代码, 如果你想要在调用方法后添加自己的代码的话, 可以将递归代码写在自己的代码前面.
+> 
+
+[上一篇: Runtime的实践（五）](https://github.com/Magic-Unique/Runtime/blob/master/E.5.Runtime的实践（五）.md)

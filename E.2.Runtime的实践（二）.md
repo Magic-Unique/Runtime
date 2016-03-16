@@ -1,4 +1,9 @@
 # Runtime 的实践（二）
+
+[上一篇: Runtime的实践（一）](https://github.com/Magic-Unique/Runtime/blob/master/E.1.Runtime的实践（一）.md)
+
+[下一篇: Runtime的实践（三）](https://github.com/Magic-Unique/Runtime/blob/master/E.3.Runtime的实践（三）.md)
+
 ## 准备工作
 
 我们知道了所有的类都是结构体指针，所有的对象也是结构体指针。我们还知道了OC的消息机制。现在我们试图去使用 objc/runtime.h 文件来进行编程。
@@ -38,3 +43,8 @@ TRPerson *person = [[TRPerson alloc] init];
 * 枚举属性
 * 关联对象
 * 方法交换
+
+
+[上一篇: Runtime的实践（一）](https://github.com/Magic-Unique/Runtime/blob/master/E.1.Runtime的实践（一）.md)
+
+[下一篇: Runtime的实践（三）](https://github.com/Magic-Unique/Runtime/blob/master/E.3.Runtime的实践（三）.md)

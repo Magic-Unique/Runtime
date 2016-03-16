@@ -1,5 +1,9 @@
 # Runtime 的实践（一）
 
+[上一篇: Runtime的表现](https://github.com/Magic-Unique/Runtime/blob/master/C.Runtime的表现.md)
+
+[下一篇: Runtime的实践（二）](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践（二）.md)
+
 ## 检验 OC 的消息机制
 说了长篇大论，似乎遗漏了一个知识点，就是 OC 的消息机制。
 
@@ -99,3 +103,8 @@ SEL selForInit = sel_registerName("init");
 obj = objc_msgSend(obj, selForInit);
 ```
 这就是一个很简单的消息机制，把面向对象变为面向过程。
+
+[上一篇: Runtime的表现](https://github.com/Magic-Unique/Runtime/blob/master/C.Runtime的表现.md)
+
+[下一篇: Runtime的实践（二）](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践（二）.md)
+

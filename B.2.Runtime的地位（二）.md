@@ -1,4 +1,9 @@
 # Runtime 的地位（二）
+
+[上一篇: Runtime的地位（一）](https://github.com/Magic-Unique/Runtime/blob/master/B.1.Runtime的地位（一）.md)
+
+[下一篇: Runtime的表现](https://github.com/Magic-Unique/Runtime/blob/master/C.Runtime的表现.md)
+
 ## 仅仅一个结构体
 上一篇我们说到，Runtime 让面向对象特有的“类”以结构体的形式生存在面向过程中。那么这个结构体到底长什么样？我写不同的类，变成的结构体都不一样吗？
 
@@ -79,3 +84,7 @@ id other_obj = [[c alloc] init];
 `id` 保存一个对象，但本质是`objc_object`的指针
 
 而我们所做的所有面向对象编程，对对象的操作，最终都会落实到这些结构体上。这些结构体保存着一个对象的所有信息。
+
+[上一篇: Runtime的地位（一）](https://github.com/Magic-Unique/Runtime/blob/master/B.1.Runtime的地位（一）.md)
+
+[下一篇: Runtime的表现](https://github.com/Magic-Unique/Runtime/blob/master/C.Runtime的表现.md)

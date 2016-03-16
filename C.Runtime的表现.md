@@ -1,4 +1,10 @@
 # Runtime的表现
+
+[上一篇: Runtime的地位（二）](https://github.com/Magic-Unique/Runtime/blob/master/B.2.Runtime的地位（二）.md)
+
+[下一篇: Runtime的使用后果](https://github.com/Magic-Unique/Runtime/blob/master/D.Runtime的使用后果.md)
+
+
 ## 结构体解析
 
 这一篇是对 runtime 涉及的两个结构体做一些解析。首先我整理了一下 `objc/objc.h`和`objc/runtime.h`两个头文件的内容，让大家好看一些：
@@ -74,3 +80,7 @@ typedef struct objc_object {
 **在 C 语言中，允许我们去创建与修改结构体**
 
 对，你没听错，就是**修改**。我们可以动态的修改这些结构体内的内容，甚至你在一个对象创建后，你可以真真切切地修改他的类型和父类。你甚至可以为一个类动态的增加方法，而不是在 .m 文件中去写方法。同样，你甚至可以去**修改苹果写的类**。
+
+[上一篇: Runtime的地位（二）](https://github.com/Magic-Unique/Runtime/blob/master/B.2.Runtime的地位（二）.md)
+
+[下一篇: Runtime的使用后果](https://github.com/Magic-Unique/Runtime/blob/master/D.Runtime的使用后果.md)

@@ -1,5 +1,9 @@
 # Runtime 的实践（三）
 
+[上一篇: Runtime的实践（二）](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践（二）.md)
+
+[下一篇: Runtime的实践（四）](https://github.com/Magic-Unique/Runtime/blob/master/E.4.Runtime的实践（四）.md)
+
 ## 枚举属性
 
 在操作之前，我们必须要为这个类添加一些属性，以供我们枚举
@@ -180,4 +184,8 @@ Sxxx: | setter        | set方法
  Gxxx | getter        | get方法
  Vxxx | var           | 实例变量
  
+[上一篇: Runtime的实践（二）](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践（二）.md)
+
+[下一篇: Runtime的实践（四）](https://github.com/Magic-Unique/Runtime/blob/master/E.4.Runtime的实践（四）.md)
+
  

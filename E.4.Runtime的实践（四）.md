@@ -1,4 +1,9 @@
 # Runtime 的实践（四）
+
+[上一篇: Runtime的实践（三）](https://github.com/Magic-Unique/Runtime/blob/master/E.3.Runtime的实践（三）.md)
+
+[下一篇: Runtime的实践（五）](https://github.com/Magic-Unique/Runtime/blob/master/E.5.Runtime的实践（五）.md)
+
 ## 关联对象
 关联对象目前比较常用的地方就是给已有的类添加属性和对应的成员变量。
 
@@ -145,3 +150,8 @@ id objc_getAssociatedObject(id object, const void *key);
 ```
 
 说明我们给 array 赋值的结果成功保留下来，下一次去取值可以成功取到上一次保存的值了。
+
+
+[上一篇: Runtime的实践（三）](https://github.com/Magic-Unique/Runtime/blob/master/E.3.Runtime的实践（三）.md)
+
+[下一篇: Runtime的实践（五）](https://github.com/Magic-Unique/Runtime/blob/master/E.5.Runtime的实践（五）.md)
