@@ -1,5 +1,7 @@
 # Runtime 的实践（六）——重写CocoaTouch框架
 
+[上一篇: Runtime的实践（五）](https://github.com/Magic-Unique/Runtime/blob/master/E.5.Runtime的实践（五）.md)
+
 CocoaTouch 框架是苹果公司仿造Cocoa框架专门为iOS设计的一套SDK.
 
 这套SDK没有对外公布源代码, 开发者无法获取到这些SDK的内部实现原理, 也无法去直接修改这套SDK.
