@@ -111,8 +111,8 @@ method_exchangeImplementations(m1, m2);
 但是如果我们在某一个时刻执行了`一次`下面的代码
 
 ```objc
-Method method1 = class_getClassMethod([classTwo class], @selector(methodTwo));
-Method method2 = class_getClassMethod([classOne class], @selector(methodOne));
+Method method1 = class_getInstanceMethod([classTwo class], @selector(methodTwo));
+Method method2 = class_getInstanceMethod([classOne class], @selector(methodOne));
 method_exchangeImplementations(method1, method2);
 
 ```
