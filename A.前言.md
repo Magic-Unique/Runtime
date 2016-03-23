@@ -1,7 +1,7 @@
 # Runtime
 Magic_Unique 冷秋
 
-[下一篇: Runtime的地位（一）](https://github.com/Magic-Unique/Runtime/blob/master/B.1.Runtime的地位（一）.md)
+[下一篇: Runtime的地位(一)](https://github.com/Magic-Unique/Runtime/blob/master/B.1.Runtime的地位(一).md)
 
 ## 前言
 
@@ -31,4 +31,4 @@ Magic_Unique 冷秋
 话不多说, 开始 runtime 的折磨之旅.
 
 
-[下一篇: Runtime的地位（一）](https://github.com/Magic-Unique/Runtime/blob/master/B.1.Runtime的地位（一）.md)
+[下一篇: Runtime的地位(一)](https://github.com/Magic-Unique/Runtime/blob/master/B.1.Runtime的地位(一).md)

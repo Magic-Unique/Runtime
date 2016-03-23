@@ -1,6 +1,6 @@
 # Runtime的表现
 
-[上一篇: Runtime的地位（二）](https://github.com/Magic-Unique/Runtime/blob/master/B.2.Runtime的地位（二）.md)
+[上一篇: Runtime的地位(二)](https://github.com/Magic-Unique/Runtime/blob/master/B.2.Runtime的地位(二).md)
 
 [下一篇: Runtime的使用后果](https://github.com/Magic-Unique/Runtime/blob/master/D.Runtime的使用后果.md)
 
@@ -33,13 +33,13 @@ typedef struct objc_object {
 //以上是一个对象的结构体
 
 ```
-我们从对象结构体开始介绍（objc_object）。
+我们从对象结构体开始介绍(objc_object)。
 
 当我们获取到一个对象的时候，说白了就是一个对象的引用，也就是一个`id`。上面那个结构体被重定义为`*id`，那么`id`就是一个`objc_object`的指针。
 
 这个结构体里有一个成员，是类型为`Class`的一个`isa`。我们可以这么理解，我们实例化出来的对象，它实际上只保存一个`类的结构体`的指针，也就为了说明这个对象是由什么类实例化出来的。
 
-现在来看看类的结构体（objc_class）。
+现在来看看类的结构体(objc_class)。
 
 对象被实例化出来后，他就保存了那个创造自己的类的信息，这个信息也就是一个`objc_class`结构体，那么我们来看看，这个结构体到底保存了那些关于一个类的信息
 
@@ -81,6 +81,6 @@ typedef struct objc_object {
 
 对，你没听错，就是**修改**。我们可以动态的修改这些结构体内的内容，甚至你在一个对象创建后，你可以真真切切地修改他的类型和父类。你甚至可以为一个类动态的增加方法，而不是在 .m 文件中去写方法。同样，你甚至可以去**修改苹果写的类**。
 
-[上一篇: Runtime的地位（二）](https://github.com/Magic-Unique/Runtime/blob/master/B.2.Runtime的地位（二）.md)
+[上一篇: Runtime的地位(二)](https://github.com/Magic-Unique/Runtime/blob/master/B.2.Runtime的地位(二).md)
 
 [下一篇: Runtime的使用后果](https://github.com/Magic-Unique/Runtime/blob/master/D.Runtime的使用后果.md)

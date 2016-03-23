@@ -1,8 +1,8 @@
-# Runtime 的实践（三）
+# Runtime 的实践(三)
 
-[上一篇: Runtime的实践（二）](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践（二）.md)
+[上一篇: Runtime的实践(二)](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践(二).md)
 
-[下一篇: Runtime的实践（四）](https://github.com/Magic-Unique/Runtime/blob/master/E.4.Runtime的实践（四）.md)
+[下一篇: Runtime的实践(四)](https://github.com/Magic-Unique/Runtime/blob/master/E.4.Runtime的实践(四).md)
 
 ## 枚举属性
 
@@ -31,7 +31,7 @@
 
 真的是蛋疼，我把所有属性会有的情况都写了出来，目的就是为了比较。通过比较来学习这一方面的知识。
 
-回到`main.m`文件，现在开始使用 runtime.h 来枚举这些东西了 （这个时候请你假装不知道这个类有什么属性）。
+回到`main.m`文件，现在开始使用 runtime.h 来枚举这些东西了 (这个时候请你假装不知道这个类有什么属性)。
 
 ```
 unsigned int outCount = 0;
@@ -184,8 +184,8 @@ Sxxx: | setter        | set方法
  Gxxx | getter        | get方法
  Vxxx | var           | 实例变量
  
-[上一篇: Runtime的实践（二）](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践（二）.md)
+[上一篇: Runtime的实践(二)](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践(二).md)
 
-[下一篇: Runtime的实践（四）](https://github.com/Magic-Unique/Runtime/blob/master/E.4.Runtime的实践（四）.md)
+[下一篇: Runtime的实践(四)](https://github.com/Magic-Unique/Runtime/blob/master/E.4.Runtime的实践(四).md)
 
  

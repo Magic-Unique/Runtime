@@ -1,8 +1,8 @@
-# Runtime 的实践（一）
+# Runtime 的实践(一)
 
 [上一篇: Runtime的表现](https://github.com/Magic-Unique/Runtime/blob/master/C.Runtime的表现.md)
 
-[下一篇: Runtime的实践（二）](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践（二）.md)
+[下一篇: Runtime的实践(二)](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践(二).md)
 
 ## 检验 OC 的消息机制
 说了长篇大论，似乎遗漏了一个知识点，就是 OC 的消息机制。
@@ -56,7 +56,7 @@ id obj = [NSObject alloc];
 obj = [obj init];
 ```
 
-保存一下后，用终端 cd 到这个文件的目录（我的项目名叫 Runtime，存放在桌面）
+保存一下后，用终端 cd 到这个文件的目录(我的项目名叫 Runtime，存放在桌面)
 
 ```
 cd ~/Desktop/Runtime/Runtime
@@ -106,5 +106,5 @@ obj = objc_msgSend(obj, selForInit);
 
 [上一篇: Runtime的表现](https://github.com/Magic-Unique/Runtime/blob/master/C.Runtime的表现.md)
 
-[下一篇: Runtime的实践（二）](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践（二）.md)
+[下一篇: Runtime的实践(二)](https://github.com/Magic-Unique/Runtime/blob/master/E.2.Runtime的实践(二).md)
 

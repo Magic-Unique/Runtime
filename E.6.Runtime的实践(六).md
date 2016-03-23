@@ -1,6 +1,8 @@
-# Runtime 的实践（六）——重写CocoaTouch框架
+# Runtime 的实践(六)——重写CocoaTouch框架
 
-[上一篇: Runtime的实践（五）](https://github.com/Magic-Unique/Runtime/blob/master/E.5.Runtime的实践（五）.md)
+[上一篇: Runtime的实践(五)](https://github.com/Magic-Unique/Runtime/blob/master/E.5.Runtime的实践(五).md)
+
+[下一篇: Runtime的实践(七)](https://github.com/Magic-Unique/Runtime/blob/master/E.7.Runtime的实践(七).md)
 
 CocoaTouch 框架是苹果公司仿造Cocoa框架专门为iOS设计的一套SDK.
 
@@ -352,4 +354,6 @@ runtime覆盖方式有很多种, 在上一个篇幅中, 我们就有一个覆盖
 > 以上代码是实现在调用方法前添加自己的代码, 如果你想要在调用方法后添加自己的代码的话, 可以将递归代码写在自己的代码前面.
 > 
 
-[上一篇: Runtime的实践（五）](https://github.com/Magic-Unique/Runtime/blob/master/E.5.Runtime的实践（五）.md)
+[上一篇: Runtime的实践(五)](https://github.com/Magic-Unique/Runtime/blob/master/E.5.Runtime的实践(五).md)
+
+[下一篇: Runtime的实践(七)](https://github.com/Magic-Unique/Runtime/blob/master/E.7.Runtime的实践(七).md)
