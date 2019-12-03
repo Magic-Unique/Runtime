@@ -55,7 +55,7 @@ typedef struct objc_object *id;
 
 如果你有 C 语言基础，你一定知道`typedef`的语法以及含义，在这里我就不多说了。
 
-苹果重新定义`objc_class`这个结构体，并取名为`*Class`，也就是说`Class`是一个 `objc_class`的一个指针。同样`id`也是`objc_object`的一个指针。
+苹果重新定义`objc_class *`这个结构体指针，取名为`Class`，也就是说`Class`是一个 `objc_class`的一个指针。同样`id`也是`objc_object`的一个指针。
 
 非常的显然了，平时我们这样编写代码：
 
